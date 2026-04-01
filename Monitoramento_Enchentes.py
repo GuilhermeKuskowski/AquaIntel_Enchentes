@@ -44,3 +44,9 @@ def exibir_dicas():
     print("- Acompanhe os alertas da Defesa Civil de Petrópolis.")
     print("- Mantenha documentos e objetos de valor em local elevado e seguro.")
     print("- Prepare uma mochila de emergência com água, alimentos, lanternas e remédios.")
+
+def exibir_rotas():
+    print("\n🗺️ Rotas de Evacuação Sugeridas em Petrópolis:")
+    print("➝ Rua do Imperador ➝ Avenida Ipiranga ➝ Ginásio Dom Pedro II (Ponto de Encontro).")
+    print("➝ Rua Coronel Veiga ➝ Avenida Barão do Rio Branco ➝ Escola Municipal Rosalina Nicolai.")
+    print("➝ Rua Mosela ➝ Rua Teresa ➝ Centro de Convenções da Universidade Católica de Petrópolis (UCP).")
