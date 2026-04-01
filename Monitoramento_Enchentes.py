@@ -50,3 +50,30 @@ def exibir_rotas():
     print("➝ Rua do Imperador ➝ Avenida Ipiranga ➝ Ginásio Dom Pedro II (Ponto de Encontro).")
     print("➝ Rua Coronel Veiga ➝ Avenida Barão do Rio Branco ➝ Escola Municipal Rosalina Nicolai.")
     print("➝ Rua Mosela ➝ Rua Teresa ➝ Centro de Convenções da Universidade Católica de Petrópolis (UCP).")
+
+def gerar_relatorio(niveis):
+    print("\n📊 Relatório de Monitoramento:\n")
+    dias_criticos = 0
+
+    for i, nivel in enumerate(niveis):
+        status = analisar_nivel(nivel)
+        print(f"Dia {i + 1}: Nível = {nivel}m -> {status}")
+        if nivel > 2.0:
+            dias_criticos += 1
+
+    max_nivel = max(niveis)
+    min_nivel = min(niveis)
+    dia_max = niveis.index(max_nivel) + 1
+
+    print("\n📈 Dados Resumidos:")
+    print(f"👉 Nível Máximo: {max_nivel}m (Dia {dia_max})")
+    print(f"👉Nível Mínimo: {min_nivel}m")
+    print(f"👉 Dias com risco de enchente (nível > 2.0m): {dias_criticos} dia(s)")
+
+    if dias_criticos > 0:
+        print("🚨 Atenção! Foram detectados dias com risco de enchente.")
+    else:
+        print("✅ Nenhum risco de enchente detectado.")
+
+    exibir_dicas()
+    exibir_rotas()
