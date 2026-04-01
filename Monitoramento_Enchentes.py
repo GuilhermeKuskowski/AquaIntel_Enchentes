@@ -35,3 +35,12 @@ def analisar_nivel(nivel):
         return "⚠️ Atenção"
     else:
         return "🚨 ALERTA DE ENCHENTE"
+    
+def exibir_dicas():
+    print("\n🛟 Dicas de Segurança em Caso de Enchente:")
+    print("- Afaste-se de áreas alagadas e encostas.")
+    print("- Não tente atravessar ruas inundadas.")
+    print("- Desligue energia elétrica se perceber risco de inundação.")
+    print("- Acompanhe os alertas da Defesa Civil de Petrópolis.")
+    print("- Mantenha documentos e objetos de valor em local elevado e seguro.")
+    print("- Prepare uma mochila de emergência com água, alimentos, lanternas e remédios.")
