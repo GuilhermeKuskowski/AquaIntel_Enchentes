@@ -77,3 +77,11 @@ def gerar_relatorio(niveis):
 
     exibir_dicas()
     exibir_rotas()
+
+# ---------- Programa Principal ----------
+exibir_menu()
+qtd_dias = 10  # Monitoramento de 10 dias
+niveis_medidos = coletar_niveis(qtd_dias)
+gerar_relatorio(niveis_medidos)
+
+print("\n🌊 Sistema Aqua Intel finalizado. Fique seguro!")
