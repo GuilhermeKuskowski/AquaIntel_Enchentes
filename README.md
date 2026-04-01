@@ -14,7 +14,8 @@ ______________
 1. exibir_menu()
 Exibe o cabeçalho inicial do programa com um título estilizado.
 
-<img width="588" height="156" alt="image" src="https://github.com/user-attachments/assets/5303be82-d0b1-4e18-81e8-9f1350f0f81a" />
+<img width="588" height="156" alt="image" src="https://github.com/user-attachments/assets/59194c0e-c936-4181-bd48-9f8ccfc3bbba" />
+
 
  
 
@@ -23,7 +24,8 @@ Coleta os níveis do rio a cada dia com verificação de entrada:
 •	Garante que o valor seja positivo e numérico.
 •	Armazena os valores em uma lista.
 
- <img width="886" height="422" alt="image" src="https://github.com/user-attachments/assets/8015e4cd-0c7d-4482-9bec-c87a10cf60a7" />
+<img width="886" height="422" alt="image" src="https://github.com/user-attachments/assets/408cce35-1d92-4959-91bb-b0b6faf6d83d" />
+
 
 
 3. analisar_nivel(nivel)
@@ -32,7 +34,8 @@ Classifica o nível informado:
 •	Atenção: entre 1.5m e 2.0m
 •	Alerta de enchente: acima de 2.0m
  
-<img width="452" height="245" alt="image" src="https://github.com/user-attachments/assets/3541b05e-af82-4e45-9ec0-2a2bc8c18c1f" />
+<img width="452" height="245" alt="image" src="https://github.com/user-attachments/assets/d1562124-36a2-4478-bf69-a12d49881d25" />
+
 
 
 4. exibir_dicas()
@@ -41,7 +44,8 @@ Imprime orientações importantes em caso de enchente:
 •	Cuidados com energia elétrica
 •	Organização de itens de emergência
  
-<img width="880" height="245" alt="image" src="https://github.com/user-attachments/assets/df1f688c-f238-4da0-82d0-21b7a9ba3676" />
+<img width="880" height="245" alt="image" src="https://github.com/user-attachments/assets/dc5f6aa7-1aed-4cf4-bc06-7f1e2526d780" />
+
 
 
 5. exibir_rotas()
@@ -49,7 +53,8 @@ Sugere rotas de evacuação seguras com pontos de encontro específicos da cidad
  
 
 
-<img width="797" height="145" alt="image" src="https://github.com/user-attachments/assets/c9fd0d64-38f9-4568-84c1-02a47a677426" />
+<img width="797" height="145" alt="image" src="https://github.com/user-attachments/assets/853e9187-ad44-4dc9-874e-af8cca6a9f5f" />
+
 
 
 
@@ -64,13 +69,16 @@ o	Número de dias críticos (> 2.0m)
 •	Mostra dicas e rotas de evacuação.
  
 
-<img width="709" height="666" alt="image" src="https://github.com/user-attachments/assets/ae90c9c9-26ac-4f63-96b7-35e1f2bcfb85" />
+<img width="709" height="666" alt="image" src="https://github.com/user-attachments/assets/c49538d7-d4cc-4e50-9227-d53342d37d9a" />
+ />
 
 
 
 ▶️ Programa Principal
 
- <img width="522" height="175" alt="image" src="https://github.com/user-attachments/assets/a0857a10-9969-445f-9292-fa301362d751" />
+
+<img width="522" height="175" alt="image" src="https://github.com/user-attachments/assets/93e41983-6906-49ea-a68f-67c7dd24c993" />
+
 
 
 •	Exibe o menu inicial.
