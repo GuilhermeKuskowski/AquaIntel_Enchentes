@@ -27,3 +27,11 @@ def coletar_niveis(dias):
             except ValueError:
                 print("❌ Valor inválido. Digite um número.")
     return niveis
+
+def analisar_nivel(nivel):
+    if nivel < 1.5:
+        return "✅ Seguro"
+    elif 1.5 <= nivel <= 2.0:
+        return "⚠️ Atenção"
+    else:
+        return "🚨 ALERTA DE ENCHENTE"
